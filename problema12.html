@@ -1,0 +1,10 @@
+<meta charset="UTF-8">
+<script>
+    const cigas = prompt('Informe quantos cigarros você fuma por dia:');
+    const anos = prompt('Há quantos anos que você fuma?');
+
+    const diasPerdidos = (cigas * 10 * 365 * anos) / 1440;
+
+alert('Você ja perdeu ' + diasPerdidos.toFixed(1).replace('.',',') + ' dias por fumar.')
+
+</script>

@@ -1,0 +1,13 @@
+<script>
+    const dia = Number (prompt('Me informe um dia qualquer:'));
+    const hora = Number (prompt('Me informe uma hora desse dia:'));
+    const min = Number (prompt('Me informe um minuto dessa hora:'));
+    const seg = Number (prompt('Agora informe um segundo desse minuto:'));
+
+    const diaseg = dia * 86400
+    const horaseg = hora * 3600
+    const minseg = min * 60
+    const segDia = minseg + horaseg + diaseg + seg
+
+    alert('Tudo isso convertido em segundos ficaria: ' + segDia);
+</script>

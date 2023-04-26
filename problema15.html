@@ -1,0 +1,8 @@
+<meta charset="UTF-8">
+<script>
+    const area = prompt('informe quantos m² deseja pintar:').replace(',','.'); 
+    const litrosNecessarios = Number(area) / 3
+    const latas = Math.ceil(litrosNecessarios / 18)
+
+    alert('Serão necessarias ' + latas + ' latas de tinta');
+</script>

@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+<script>
+    const hora = prompt('Quantas horas você trabalha por mês?');
+    const receba = prompt('Quanto você recebe por hora?');
+
+    const valorM = hora * receba
+    const inss = valorM * (8 / 100)
+    const ir = valorM * (11 / 100)
+    const valorReal = valorM - inss - ir
+
+    alert('Seu salário liquido será de: ' + valorReal)
+
+</script>
